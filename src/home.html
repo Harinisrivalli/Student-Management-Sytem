@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SRM</title>
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <script src="../js/student.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header id="header1">
+        <nav id="nav1">
+            <span><a href="index.html" id="nav-link">Logout</a></span>
+        </nav>
+    </header>
+    <section id="section1">
+        <article id="art1">
+            <h2 id="heading">Student Registration System</h2>
+            <div id="content">
+                <div id="content1">
+                        <label for="sname">Student Name</label>
+                        <input type="text" id="sname" autocomplete="off" required><br/><br/>
+                        <label for="rno">Student Id</label>
+                        <input type="number" id="rno" autocomplete="off" required><br/><br/>
+                        <label for="email">Email ID</label>
+                        <input type="email" id="email" autocomplete="off" required><br/><br/>
+                        <label for="phoneno">Phone Number</label>
+                        <input type="number" id="phoneno" autocomplete="off" maxlength="10" minlength="10" required><br/><br/>
+                        <button id="btnadd" type="button">Add Data</button>
+                </div><br/><br/>
+                <div id="content2">
+                    <table border="1" id="studata" style="background-color:rgba(169, 169, 169, 0.658);">
+                        <legend style="text-align: center; background-color: rgba(169, 169, 169, 0.658) ;">Student Data</legend>
+                        <thead>
+                            <tr>
+                                <th>Student Name</th>
+                                <th>Email Id</th>
+                                <th>Phone Number</th>
+                                <th>Roll No</th>
+                                <th>Delete</th>
+                                <th>Edit</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </article>
+    </section>
+    <footer>
+        <p id="footer">Copyright@sriharinivadivel</p>
+    </footer>
+</body>
+</html>
