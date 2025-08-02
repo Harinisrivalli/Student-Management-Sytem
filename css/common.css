@@ -1,0 +1,31 @@
+body{
+    background-image: url("../images/bg.webp");
+    /*background-color: rgb(180, 237, 218);*/
+    color: rgb(4, 10, 10);
+}
+#header1{
+    top: 0px;
+    height: 30px;
+    width: 100%;
+}
+#heading{
+    text-align: center;
+    background-color:rgba(169, 169, 169, 0.658);
+}
+#nav1{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: large;
+    color: black;
+}
+
+#nav-link.hover{
+    color: coral;
+}
+#footer{
+    text-align: center;
+    color: rgb(10, 7, 48);
+}

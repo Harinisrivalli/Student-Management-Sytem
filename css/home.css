@@ -1,0 +1,26 @@
+#content{
+    padding-left: 450px;
+    padding-right: 450px;
+    padding-top: 75px;
+    margin: 5px;
+    border: 5px;
+    display: block;
+}
+#content1{
+    padding: 10px;
+    background-color:rgba(169, 169, 169, 0.658);
+    text-align: center;
+}
+#login{
+    background-color: rgb(134, 236, 225);
+    width: 70px;
+    height: 25px;
+    border: 1px;
+}
+#btnadd{
+    background-color: rgb(134, 236, 225);
+    width: 100px;
+    height: 25px;
+    border: 1px;
+    border-radius: 7px;
+}
