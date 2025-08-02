@@ -1,0 +1,22 @@
+#heading{
+    text-align: center;
+    background-color:rgba(169, 169, 169, 0.658);
+}
+#content{
+    padding-left: 450px;
+    padding-right: 450px;
+    padding-top: 75px;
+    margin: 5px;
+    border: 5px;
+}
+#content1{
+    padding: 10px;
+    background-color:rgba(169, 169, 169, 0.658);
+    text-align: center;
+}
+#Register{
+    background-color: rgb(134, 236, 225);
+    width: 70px;
+    height: 25px;
+    border: 1px;
+}

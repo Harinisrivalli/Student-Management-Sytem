@@ -1,0 +1,13 @@
+
+#content{
+    padding-left: 250px;
+    padding-right: 250px;
+    padding-top: 75px;
+    margin: 5px;
+    border: 5px;
+}
+#content1{
+    padding: 10px;
+    background-color:rgba(169, 169, 169, 0.658);
+    text-align: center;
+}
